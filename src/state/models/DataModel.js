@@ -31,7 +31,9 @@ const DataModel = {
     }
   }),
   setHighlightData: action((state, payload) => {
-    console.log(`zooming in on ${payload}`);
+    console.log(`zooming in on`);
+    console.dir(payload);
+    
     state.highlightData = payload;
     state.mapCenter = payload ? payload.geometry.coordinates : c.map.mapCenter;
     state.mapZoom = payload ? [12] : c.map.mapZoom;
