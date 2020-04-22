@@ -31,11 +31,11 @@ export default {
     paragraphs: [
       {
         title: "Worum geht es?",
-        content: "Dies ist eine Übersicht über den [Berliner Innovationspreis](https://www.google.de). Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?",
+        content: "Dies ist eine Übersicht über den [Berliner Innovationspreis](https://www.google.de). Hier sehen sie die Projekte auf einer Karte verortet.",
       },
       {
-        title: "Subheadline hier",
-        content: "Lorem ipsum [dolorem](https://www.google.de) est. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?",
+        title: "Weitere Erklärungen",
+        content: "Stehen hier, z.B. zum Bewerbungsverfahren oder zur Preisverleihung",
       },
     ]
   },
@@ -91,6 +91,11 @@ export default {
       label: "Angebot",
     },
     {
+      id: "adresse",
+      component: "description",
+      label: "Adresse",
+    },
+    /*{
       id: "bezeichnung",
       component: "description",
       label: "Bezeichnung",
@@ -100,12 +105,9 @@ export default {
       component: "link",
       label: "E-Mail",
     },
-    {
-      id: "adresse",
-      component: "description",
-      label: "Adresse",
-    },
-    {
+    
+  
+    /*{
       id: "angebote",
       component: "tags",
       label: "Angebote",
@@ -114,6 +116,6 @@ export default {
       id: "zielgruppe_themenspezifisch",
       component: "tags",
       label: "Zielgruppen",
-    },
+    },*/
   ],
 };
