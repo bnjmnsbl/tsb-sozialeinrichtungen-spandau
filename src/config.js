@@ -25,13 +25,13 @@ export default {
   },
   about: {
     legend: {
-      id: 'art_angebot'
+      id: 'Kategorie'
     },
-    title: "Name des Projekts hier",
+    title: "Berliner Innovationspreis",
     paragraphs: [
       {
-        title: "Subheadline hier",
-        content: "Lorem ipsum [dolorem](https://www.google.de) est. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?",
+        title: "Worum geht es?",
+        content: "Dies ist eine Übersicht über den [Berliner Innovationspreis](https://www.google.de). Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?",
       },
       {
         title: "Subheadline hier",
@@ -74,9 +74,9 @@ export default {
       label: "Institution",
     },
     {
-      id: "art_angebot",
+      id: "Kategorie",
       component: "description",
-      label: "Angebot",
+      label: "Kateogire",
     }
   ],
   detail: [
@@ -86,7 +86,7 @@ export default {
       label: "Institution",
     },
     {
-      id: "art_angebot",
+      id: "Kategorie",
       component: "description",
       label: "Angebot",
     },
