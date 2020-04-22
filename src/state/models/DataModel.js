@@ -34,7 +34,7 @@ const DataModel = {
     console.log(`zooming in on ${payload}`);
     state.highlightData = payload;
     state.mapCenter = payload ? payload.geometry.coordinates : c.map.mapCenter;
-    state.mapZoom = payload ? [10] : c.map.mapZoom;
+    state.mapZoom = payload ? [12] : c.map.mapZoom;
   }),
   setSelectedData: action((state, payload) => (state.selectedData = payload)),
 };
