@@ -11,6 +11,11 @@ REACT_APP_MAP_TOKEN={{MAPBOX_TOKEN}}
 REACT_APP_MAP_STYLE={{MAPBOX_STYLE_URL}}
 ```
 
+## Data Input
+
+Place a GeoJSON file of your choice in /public/data/ 
+
+
 ## How to setup the project
 
 Inside the root directory is a ```config.js``` located which defines *what* and *how* properties of your geojson are displayed. Further more it sets default values for setting up the map. 

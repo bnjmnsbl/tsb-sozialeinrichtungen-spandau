@@ -95,12 +95,12 @@ export default {
       component: "description",
       label: "Adresse",
     },
-    /*{
-      id: "bezeichnung",
-      component: "description",
-      label: "Bezeichnung",
-    },
     {
+      id: "inhalt",
+      component: "description",
+      label: "Inhalt",
+    },
+    /*{
       id: "email",
       component: "link",
       label: "E-Mail",
