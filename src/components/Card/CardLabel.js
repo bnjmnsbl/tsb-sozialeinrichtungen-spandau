@@ -9,7 +9,7 @@ export default p => {
         fontSize: [0,1],
         color: ['black'],
         lineHeight: ['heading'],
-        fontFamily: 'body',
+        fontFamily: 'heading',
         paddingBottom: [1,2]
       }}
     ></div>

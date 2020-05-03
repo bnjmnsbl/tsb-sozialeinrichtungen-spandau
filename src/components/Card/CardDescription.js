@@ -12,8 +12,8 @@ export default p => {
       {...p}
       sx={{
         fontSize: fontSize,
-        fontFamily: ['heading'],
-        lineHeight: ['heading'],
+        fontFamily: ['body'],
+        lineHeight: ['body'],
         color: fontColor,
         paddingBottom: [3,4],
         transition: theme => theme.transitions[0],
